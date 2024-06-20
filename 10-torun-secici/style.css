@@ -1,0 +1,19 @@
+/*
+div{
+    
+}
+b{
+
+}
+*/
+div {
+    color: rgb(79, 119, 207);
+}
+
+.box b{
+    color: green;
+}
+
+.box .bold {
+    color: purple
+}
