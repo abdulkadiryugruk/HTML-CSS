@@ -1,0 +1,11 @@
+div[class*="top"] {
+    background: green;
+}
+
+div[class*="big" i] {
+    background: green;
+}
+
+p {
+    color: red;
+}

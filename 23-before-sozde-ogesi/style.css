@@ -1,0 +1,15 @@
+div {
+    background: yellow;
+}
+
+.box::after {
+    content:'sonraki yazi';
+    color: green;
+    background: blue;
+}
+
+.box::before {
+    content: 'oncekı yazı';
+    color: white;
+    background: purple;
+}

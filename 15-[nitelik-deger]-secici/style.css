@@ -1,0 +1,13 @@
+a[target] {
+    color:green;
+}
+a[target="_blank"] {
+    color: purple;
+}
+img[alt="MirEN"] {
+    background:green;
+}
+
+img[width="200"] {
+    background: black;
+}

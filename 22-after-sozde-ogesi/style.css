@@ -1,0 +1,9 @@
+div {
+    background: yellow;
+}
+
+div::after {
+    content: 'sonraki yazi';
+    color: red;
+    background: blue;
+}

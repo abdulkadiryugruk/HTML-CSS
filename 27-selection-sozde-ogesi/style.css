@@ -1,0 +1,9 @@
+::selection {
+    background: purple;
+    color: white;
+}
+
+div::selection {
+    background: green;
+    color:red;
+}

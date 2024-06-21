@@ -1,0 +1,12 @@
+ul :first-child {
+    background: green;
+}
+
+div :first-child {
+
+    background-color: red;
+}
+
+div ul:first-child {
+    background: purple;
+}
