@@ -1,0 +1,76 @@
+/*
+border-style
+border-width
+border-color
+border
+*/
+.box1 {
+    width: 150px;
+    height: 150px;
+    background-color: tomato;
+    
+
+    border-top-style:double;
+    border-left-style:solid;
+    border-right-style:dotted;
+    border-bottom-style:groove;
+
+    border-width: 15px;
+    border-color: green;
+}
+
+p {
+    width: 150px;
+    height: 150px;
+    background-color: cornflowerblue;
+
+    border-style: solid dashed double dotted;
+
+    border-top-width:10px;
+    border-left-width:15px;
+    border-right-width:5px;
+    border-bottom-width:20px;
+
+    border-color: crimson;
+}
+/*
+border-width: 10px 15px 20px 18px
+seklinde de kullanilabilir
+*/
+
+/*
+ayrica border-(top-right-left-bottom)-color seklinde de kullanilabilir
+border-color: black white red blue 
+seklinde tekde de yazilabilir 
+*/
+
+
+.box2 {
+    margin-top: 20px;
+    width: 150px;
+    height: 150px;
+    background-color: red;
+
+    border: 10px solid green;
+    /*tek border ozelligi ile 4 koseye mudahele*/
+
+    /* veya butun kenarlar icin ozellik*/
+
+    border-top: 15px solid blue;
+    border-left: 23px dashed gold;
+    border-right: 8px dotted green;
+    border-bottom: 5px solid rgb(146, 26, 136);
+
+}
+
+input {
+    outline: none;
+    border: 3px dotted brown;
+}
+input:focus {
+
+    border-color: green purple;
+    border-width: 5px;
+}
+
+/*border-top-left-right-bottom:none  ile istenilen kenar kaldirilabilir*/

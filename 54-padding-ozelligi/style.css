@@ -1,0 +1,19 @@
+.birinci {
+    background-color: tomato;
+    padding-top: 50px;
+    padding-right: 100px;
+    padding-left: 25px;
+    padding-bottom: 35px;
+}
+.ikinci {
+    background-color: lime;
+    width: 200px;
+    height: 200px;
+    padding: 50px;
+}
+/*padding e tek deger girilirse 4 kenardan etki eder.
+2 deger girilirse ilki ust ve alttan,
+ikincisi ise sol ve sagdan etki eder.
+3 deger girilirse
+ilki ust, ikincisi sol ve sag, ucuncusu ise alta etki edr.
+4 deger yazildiginda ise saat yonunde sekillenir*/

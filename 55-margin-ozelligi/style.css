@@ -1,0 +1,20 @@
+div {
+    background-color: tomato;
+    margin: 100px;
+}
+p {
+    background-color: brown;
+    color: white;
+
+    margin-bottom: 50px;
+    margin-bottom: -150;
+    margin-right: 200px;
+}
+
+
+
+
+/*
+paddingdeki bosluk birakma ozelliginin tam tersidir.
+ayrica - degerlerde kullanilabilir
+*/

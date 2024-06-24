@@ -1,0 +1,18 @@
+input:invalid {
+    border-color: tomato;
+}
+
+input:invalid+span::before {
+    content: '×';
+    color: tomato;
+}
+
+input:valid {
+    border-color: green;
+}
+
+
+input:valid+span::before {
+    content: '✓';
+    color: green;
+}

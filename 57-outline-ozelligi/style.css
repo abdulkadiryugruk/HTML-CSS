@@ -1,0 +1,19 @@
+/* 
+outline-style
+outline-width
+outline-color
+outline-offset
+*/
+
+div {
+width: 200px;
+height: 200px;
+background-color: green;
+margin:50px auto;
+border: 5px solid tomato;
+outline-style: dashed;
+outline-width: 10px;
+outline-color: rgb(122, 122, 23);
+outline-offset: 5px;
+
+} 

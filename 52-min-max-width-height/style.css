@@ -1,0 +1,8 @@
+div {
+    max-width: 1000px;
+    min-width: 600px;
+    background-color: tomato;
+    height: 450px;
+    min-height: 100px;
+    max-height: 700px;
+}

@@ -1,0 +1,8 @@
+li :only-child {
+    background-color: brown;
+    color: white;
+}
+div :only-child {
+    background-color: brown;
+    color: white;
+}

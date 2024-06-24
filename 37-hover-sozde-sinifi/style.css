@@ -1,0 +1,30 @@
+a:hover {
+    background-color: orangered;
+}
+ul:hover {
+    background-color: lime;
+}
+ul li:hover {
+    background-color: orange;
+}
+div:hover {
+    background-color: purple;
+}
+div span:hover {
+    background:  blue;
+}
+button:hover+ul {
+    display: none;
+}
+p::selection {
+    background: brown;
+}
+p:hover::selection {
+    background: lime;
+}
+.url::after {
+    content: '('attr(href)')';
+}
+.url:hover::after {
+    display: none;
+}

@@ -1,0 +1,14 @@
+.max {
+    background-color: tomato;
+    width: max-content;
+}
+
+.min {
+    background-color: aqua;
+    width: min-content;
+}
+.box {
+    writing-mode: vertical-lr;
+    background: gray;
+    color: white;
+}

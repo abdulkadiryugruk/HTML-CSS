@@ -1,0 +1,13 @@
+span {
+    background: lime;
+}
+
+body {
+    height: 400px;
+}
+
+div {
+    width: 50%;
+    height: 50%;
+    background: orange;
+}

@@ -1,0 +1,24 @@
+:focus {
+    outline: none;
+}
+button:focus {
+    background-color: brown;
+    color: white;
+}
+input:focus {
+    color: red;
+    border-color: lime;
+}
+a:focus {
+    background-color: aqua;
+}
+div:focus {
+    background: purple;
+    color: wheat;
+}
+li:focus {
+    background-color: teal;
+}
+ul:focus-within {
+    background-color: yellow;
+}

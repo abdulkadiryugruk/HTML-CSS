@@ -1,0 +1,18 @@
+.bir:in-range {
+    background-color: green;
+    color: white;
+}
+.bir:out-of-range {
+    background-color: red;
+    color: white;
+}
+
+.iki:valid {
+    background-color: green;
+    color: white;
+}
+
+.iki:invalid {
+    background-color: red;
+    color: white;
+}
