@@ -1,0 +1,12 @@
+/*
+no-repeat
+repeat-x
+repeat-y
+repeat
+space
+round
+*/
+body {
+background-image: url(pngwing.com.png);
+background-repeat: space;
+}

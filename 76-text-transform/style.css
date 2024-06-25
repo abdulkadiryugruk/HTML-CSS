@@ -1,0 +1,8 @@
+/*
+lowercase
+uppercase
+capitalize
+*/
+p {
+    text-transform: uppercase;
+}

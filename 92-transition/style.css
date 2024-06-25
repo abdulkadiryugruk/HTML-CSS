@@ -1,0 +1,51 @@
+a{
+background-color: blue;
+color: #fff;
+transition-property: background-color;
+transition-duration: 1s;
+transition-timing-function: ease;
+}
+
+ .box div {
+    height: 50px;
+    width: 0;
+    background-color: red;
+    transition-property:width;
+    transition-duration: 1s;
+    margin-bottom: 10px;
+ }
+.box div:nth-child(1) {
+    transition-timing-function: ease-in;
+ }
+.box div:nth-child(2) {
+    transition-timing-function: steps(5);
+ }
+.box div:nth-child(3) {
+    transition-timing-function: linear;
+ }
+.box div:nth-child(4) {
+    transition-timing-function:cubic-bezier(.52,1.45,.36,.1);
+}
+
+a:hover{
+    background-color: tomato;
+}
+body:hover .box div {
+    width: 100%;
+}
+
+
+.avatar{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    background-color: plum;
+    transition: 1s border-radius;
+}
+.avatar:hover{
+    border-radius: 50%;
+}
+
+ /*
+ cubic-bezier.com
+ */

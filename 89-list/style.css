@@ -1,0 +1,10 @@
+ol {
+    list-style-type: none;
+    counter-reset: sayac;
+    }
+    ol li {
+    counter-increment: sayac;
+    }
+    ol li::before {
+    content: counters(sayac, '.')
+    } 

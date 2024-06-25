@@ -1,0 +1,37 @@
+.box {
+    width: 200px;
+    height: 200px;
+    background-image: linear-gradient(green 0 8%, orange 8% 20%,blue 30%,red);
+    /*
+    parantez kismina to (left right top bottom*) kombinasyonlariyla yon verilebilir*/
+}
+.box2 {
+    width: 300px;
+    height: 200px;
+    background-image: linear-gradient(to right, #002290 33%, white 33% 66%,#E62837 66%)
+}
+
+.box3 {
+    width: 300px;
+    height: 200px;
+    background-image: radial-gradient(at center, tomato, purple)
+}
+.box4 {
+    width: 300px;
+    height: 200px;
+    background-image: conic-gradient(tomato, purple)
+}
+.box5{
+    width: 300px;
+    height: 200px;
+    background-image: repeating-linear-gradient(45deg, tomato 0 5px, purple 5px 10px)
+}/*
+deg
+derecelendirme degeri
+*/
+
+/*
+prototurk.com --> gradiant makalesi 
+colorzilla da alternatif
+standardista.com da incele
+*/

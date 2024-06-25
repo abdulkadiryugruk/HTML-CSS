@@ -1,0 +1,35 @@
+/*
+tek satirda yazmak icin sirasini arastir!!!!
+
+origin
+position
+size
+color
+img
+repeat
+clip
+atachment
+*/
+ 
+.kapaliyiz {
+    height: 270px;
+    width: 480px;
+    border: 20px dashed tomato;
+    padding: 20px;
+
+    background-image: url(kapaliyiz.png);
+    background-repeat: no-repeat;
+    background-color: green;
+    background-clip: content-box;
+    background-position: center;
+    background-size: cover;
+    background-origin: padding-box;
+}
+.kapaliyiz2 {
+    height: 270px;
+    width: 480px;
+    border: 20px dashed tomato;
+    padding: 20px;
+    
+    background: padding-box center/cover green url(kapaliyiz.png) no-repeat  content-box;
+}

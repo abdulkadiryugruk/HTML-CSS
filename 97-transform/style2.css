@@ -1,0 +1,32 @@
+.box {
+    width: 200px;
+    height: 200px;
+    position: relative; /* Kutunun konumunu belirtmek için */
+    perspective: 1000px; /* 3D dönüş efektini sağlamak için */
+}
+
+.box .front, .box .back {
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    backface-visibility: hidden;
+    transition: 1s transform;
+}
+
+.box .front {
+    background: lightblue;
+    transform: rotateX(0deg); /* Ön yüz başlangıç pozisyonu */
+}
+
+.box .back {
+    background: lightcoral;
+    transform: rotateX(180deg); /* Arka yüz başlangıç pozisyonu */
+}
+
+.box:hover .front {
+    transform: rotateX(-180deg); /* Ön yüzü 180 derece döndür */
+}
+
+.box:hover .back {
+    transform: rotateX(0deg); /* Arka yüzü 0 dereceye döndür (ilk pozisyona geri getir) */
+}

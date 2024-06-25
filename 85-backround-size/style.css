@@ -1,0 +1,21 @@
+/*
+contain
+cover
+
+*/
+
+.box {
+width: 500px;
+height: 200px;
+border: 10px dashed tomato;
+background-repeat: no-repeat;
+background-image: url(honeybee-pot-with-cute-yellow-emojis-oj782jjqp0c45g9n.jpg);
+background-size: 100px ;
+}
+.cover {
+    width: 200px;
+    height: 300px;
+    background-size: cover;
+    margin-bottom: 20px;
+    background-position: center;
+}

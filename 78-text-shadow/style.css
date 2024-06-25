@@ -1,0 +1,20 @@
+/*
+text-shadow: yatay dikey bulaniklik renk
+*/
+
+h3 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 70px;
+    font-weight: 800;
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 10px red, -10px -10px 20px blue, 10px 10px 20px green;
+}
+h4 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 70px;
+    font-weight: 800;
+    text-align: center;
+    color: black;
+    text-shadow: 5px 5px 10px black ;
+}

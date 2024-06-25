@@ -1,0 +1,20 @@
+
+/*
+top
+bottom
+right
+left
+kombinasyonlariylay kullanilir
+*/
+html {
+    height: 100%;
+}
+body {
+    background-image: url(honeybee-pot-with-cute-yellow-emojis-oj782jjqp0c45g9n.jpg);
+background-repeat: no-repeat;
+background-size: 250px;
+background-position: right 30px bottom 50px;
+/*
+kenarlardan bosluk birakilabilir
+*/
+}

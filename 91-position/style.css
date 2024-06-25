@@ -1,0 +1,90 @@
+/*
+position:
+z-index:
+
+*/
+
+body {
+   height: 4000px; 
+}
+
+.container {
+height: 500px;
+width: 500px;
+background-color: #ccc;
+position: relative;
+}
+.container div {
+    width: 100px;
+    height: 100px;
+}
+
+.container div:nth-child(1) {
+    background-color: salmon;
+    position: relative;
+    z-index: 1;
+}
+.container div:nth-child(2) {
+    background-color: seagreen;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+.container div:nth-child(3){
+    background-color: cornflowerblue;
+    position: relative;
+
+}
+
+a.up {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+}
+.page h3 {
+    font: bold 40px Arial, sans-serif;
+    background-color:tomato;
+    color: #fff;
+    padding: 20px;
+    margin: 0;
+    position: sticky;
+    top: 0;
+}
+.page .text {
+    height: 800px;
+}
+
+.checkbox {
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    background-color: #ddd;
+    border-radius: 40px;
+    position: relative;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.checkbox .check-btn {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: tomato;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    transition: left 0.3s, background-color 0.3s;
+}
+
+label input:checked + .checkbox {
+    background-color: tomato;
+}
+
+label input:checked + .checkbox .check-btn {
+    left: 65px;
+    background-color: white;
+}
+
+label input {
+    display: none; /* Checkboxu gizle */
+}

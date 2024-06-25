@@ -1,0 +1,16 @@
+.ornek1 {
+    column-width:250px ;
+    column-rule-style: dotted;
+    column-rule-color: red;
+    column-rule-width: 5px;
+}
+.ornek2 {
+    column-count: 4;
+    column-rule: solid blue 8px;
+}
+.ornek3{
+    columns: 5 150px;
+    column-count: 2;
+    column-gap: 50px;
+    column-rule: solid blue 8px;
+}

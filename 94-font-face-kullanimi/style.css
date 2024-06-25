@@ -1,0 +1,23 @@
+@font-face {
+    font-family: "Split On";
+    src: local("Split On"),
+    local("Split-On"),
+    url("Spliton.ttf") format("truetype"),
+    url("Spliton.svg") format("svg"),
+    url("Spliton.woff") format("woff"),
+    url("Spliton.woff2") format("woff2"),
+    url("Spliton.otf") format("opentype"),
+    url("Spliton.eot") format("embedded-opentype");
+
+    font-display: swap;
+}
+div {
+    font-family: "split On";
+    font-size: 100px;
+}
+
+/* 
+transfonter.com
+
+fonts.google
+*/

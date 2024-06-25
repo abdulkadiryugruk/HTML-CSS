@@ -1,0 +1,27 @@
+/*
+backround attachment:fixed
+arkaplan sabit kalir.
+*/
+/*
+*/
+/* body {
+    background-image: url(bc1.jpg);
+    background-repeat: no-repeat;
+} */
+
+.bc1 {
+    background-image: url(bc1.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.bc2 {
+    background-image: url(bc2.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}

@@ -1,0 +1,14 @@
+ /* 
+ nowrap
+ pre
+ pre-wrap
+ pre-line
+
+ */
+ div {
+    white-space: pre;
+ }
+
+ pre {
+    color: red;
+ }

@@ -1,0 +1,21 @@
+/*
+img ye filter efektleri
+.
+.
+.
+.
+.
+.
+.
+.
+
+*/
+
+img {
+    transition: 1s filter;
+    filter: brightness(1);
+    width: 100%;
+}
+img:hover{
+    filter: blur(0);
+}

@@ -1,0 +1,19 @@
+div {
+    margin-bottom: 20px;
+    text-decoration-line: underline overline;
+    text-decoration-color: chocolate;
+    text-decoration-style: wavy;
+}
+p {
+    text-decoration: underline overline lime wavy;
+}
+div:last-of-type {
+    text-decoration: none;
+}
+
+h3 {
+    text-decoration: underline  lime wavy;
+}
+h3 span {
+    text-decoration: none;
+}

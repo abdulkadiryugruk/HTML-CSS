@@ -1,0 +1,21 @@
+
+/*
+border-box
+content-box
+
+text
+(-webkit-backround-clip:text
+ile birlikte kullanmak gerekiyor(tarayici destegi yetersiz))
+
+*/
+.box {
+    padding: 30px;
+    border: 20px dashed tomato;
+    font-size: 75px;
+    font-weight: 800;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-color: cornflowerblue;
+    color: wheat;
+    background-clip:content-box ;
+}

@@ -1,0 +1,13 @@
+p {
+    text-indent: 50px;
+}
+div {
+    width: 300px;
+    height: 100px;
+    background-color: tomato;
+    text-align: center;
+    font-size: 50px;
+
+    text-indent: -9999px;
+    /* buton yazisini kaybettik */
+}

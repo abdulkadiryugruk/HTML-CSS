@@ -1,0 +1,9 @@
+.box {
+    width: 200px;
+    height: 200px;
+    background: lightblue;
+    transition: 1s transform;
+}
+#checkbox:checked + .box {
+    transform:rotate(180deg);
+}

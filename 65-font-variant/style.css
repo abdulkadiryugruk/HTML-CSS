@@ -1,0 +1,8 @@
+div {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+
+div span {
+    font-variant:small-caps ;
+}
