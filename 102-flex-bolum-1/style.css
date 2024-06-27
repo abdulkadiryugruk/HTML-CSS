@@ -1,0 +1,49 @@
+
+/*
+display :flex
+flex-direction
+flex-wrap
+justify-content :flex, center, space-between, space-evenly, n 
+align-items
+align-content
+
+
+*/
+*{
+    padding: 0;
+    margin: 0;
+}
+/*1.kisim
+.container {
+    display: flex;   <<<<----- 
+    background-color: red;
+
+}
+.container p {
+    height: 100px;
+}
+*/
+
+.container {
+    display: flex;
+  justify-content: space-between;
+  height: 100px;
+  flex-wrap: wrap-reverse;
+}
+
+.box {
+    width: 50px;
+    height: 50px;
+    background-color: aqua;
+}
+
+
+/*
+https://www.w3schools.com/css/css3_flexbox.asp
+*/
+/*
+holy grall layout
+*/
+/*
+https://philipwalton.github.io/solved-by-flexbox/
+*/

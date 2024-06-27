@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+    border: none;
+    box-sizing: border-box;
+    list-style: none;
+
+    /*sifirlanmasi istenen hazir seyler bu alanda yazilir. ornegin yazilarin renkleri
+    butonlarin renkleri, arka planlar. aralardaki bosluklar veya yazilarin boyutlari vb.
+    */
+}
+
+/*
+the new css reset 
+sitesi incelenebilir
+
+csshack arastir
+
+
+Videoda adı geçen linkler;
+Normalleştirme için -> https://github.com/necolas/normalize.css/
+Eric Meyer Reset CSS için -> https://meyerweb.com/eric/tools/css/reset/
+Yeni nesil sıfırlama için -> https://elad2412.github.io/the-new-css-reset/
+
+*/

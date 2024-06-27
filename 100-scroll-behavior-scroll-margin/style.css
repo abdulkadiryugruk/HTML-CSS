@@ -1,0 +1,50 @@
+/*
+scroll-behavior - auto, smooth
+scroll-margin
+*/
+
+html, body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth; /* <<<----- burada kullaniliyor*/
+}
+nav {
+    background-color: rebeccapurple;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    line-height: 50px;
+    display: inline-block;
+    text-decoration: none;
+    padding: 0 20px;
+    color: #fff ;
+}
+section {
+    scroll-margin-top: 50px; ;/*<------ scroll margin */
+height: calc(100vh - 50px);
+    }
+    #home {
+    background-color: coral;
+    }
+    #about {
+    background-color: darkseagreen
+    }
+    #blog {
+    background-color: lightblue
+    }
+    #contact {
+    background-color: gold
+    }
+    
+    .top{
+        position: fixed;
+        bottom: 15px;
+        right: 15px;
+        line-height: 10px;
+        padding: 20px;
+        background: #000;
+        color: #fff;
+        text-decoration: none;
+    }

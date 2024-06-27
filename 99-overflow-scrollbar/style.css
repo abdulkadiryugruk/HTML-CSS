@@ -1,0 +1,41 @@
+/*
+overflow - visible (def), hidden, scroll, auto
+overflow-x
+overflow-y
+
+- chrome, edge, opera, safari için
+::-webkit-scrollbar
+::-webkit-scrollbar-corner
+::-webkit-scrollbar-thumb
+
+- firefox için
+scrollbar-width - none, auto, thin
+scrollbar-color - [thumb, scrollbar]
+*/
+
+
+.box {
+    width: 100px;
+    height: 100px;
+    border: 1px solid#ddd;
+    overflow: auto;
+}
+.box {
+width: 100px;
+height: 100px;
+overflow: auto;
+padding: 20px;
+}
+.box::-webkit-scrollbar {
+background:#eee;
+width: 5px;
+height: 5px;
+}
+.box::-webkit-scrollbar-corner {
+background: transparent;
+}
+.box::-webkit-scrollbar-thumb {
+border-radius: 6px;
+background: purple;
+}
+
